@@ -1,6 +1,6 @@
-import customtkinter
+import customtkinter # type: ignore
 from tkinter import messagebox
-from customtkinter import *
+from customtkinter import * # type: ignore
 import random
 
 
@@ -10,7 +10,7 @@ root.geometry("400x400")
 root.maxsize(400, 400)
 root.minsize(400, 400)
 root.configure(background="black")
-root.iconbitmap("key.ico")
+root.customtkintericonbitmap("/mnt/A074BF9774BF6EA2/workspace/GeradorDeSenhaTkinter/key.bmp")
 
 def senha():
     var1 = var.get()
